@@ -1,0 +1,8 @@
+# version: "3.3"
+
+services:
+  cr8s:
+    image: cr8s
+    build:
+      context: .
+      dockerfile: ./Dockerfile
